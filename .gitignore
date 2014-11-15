@@ -1,3 +1,4 @@
+build/
 obj/
 
 # Ignore files build by xcode
