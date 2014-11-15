@@ -5,7 +5,7 @@ namespace :openssl do
       $target = "crypto"
       $config = "Release"
       $sdks = %w(iphonesimulator iphoneos)
-      $output_lib = 'ios-libs'
+      $output_lib = 'build/ios-libs'
     end
 
     task build: :config do
@@ -37,7 +37,7 @@ namespace :sqlcipher do
       $target = "sqlcipher"
       $config = "Release"
       $sdks = %w(iphonesimulator iphoneos)
-      $output_lib = 'ios-libs'
+      $output_lib = 'build/ios-libs'
     end
 
     task build: :config do
