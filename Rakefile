@@ -71,6 +71,6 @@ end
 namespace :build do
   namespace :ios do
     Rake::Task['openssl:ios:all'].invoke
-    Rake::Taks['sqlcipher:ios:all'].invoke
+    Rake::Task['sqlcipher:ios:all'].invoke
   end
 end
